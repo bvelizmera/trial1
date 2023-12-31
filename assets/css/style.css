@@ -13,18 +13,23 @@ body {
     display: flex;
     flex-direction: column;
     /*Generic project styles*/
-    color: lightgreen;
+    color: green;
     font-family: 'Lato', sans-serif;
 }
 
 header {
-    background-color: yellow;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 h1 {
     font-family: 'Oswald', serif;
 }
 main {
-    background-color: blue;
+    background-color: orange;
     flex: 1 0 auto;
 }
 
